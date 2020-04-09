@@ -1,0 +1,39 @@
+2020-04-09 20:02:05 [main] INFO  c.e.mypoc.phonebook.ApplicationTests - Starting ApplicationTests on HYD-LAP-00493 with PID 5224 (started by ntalatam in D:\myworkspace\mypoc.phonebook)
+2020-04-09 20:02:05 [main] DEBUG c.e.mypoc.phonebook.ApplicationTests - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-09 20:02:05 [main] INFO  c.e.mypoc.phonebook.ApplicationTests - The following profiles are active: local
+2020-04-09 20:02:06 [main] INFO  com.datastax.driver.core - DataStax Java driver 3.7.2 for Apache Cassandra
+2020-04-09 20:02:06 [main] INFO  c.d.driver.core.GuavaCompatibility - Detected Guava >= 19 in the classpath, using modern compatibility layer
+2020-04-09 20:02:07 [main] INFO  com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2020-04-09 20:02:07 [main] INFO  c.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+2020-04-09 20:02:07 [main] INFO  com.datastax.driver.core.NettyUtil - Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+2020-04-09 20:02:08 [main] WARN  com.datastax.driver.core.Cluster - You listed localhost/0:0:0:0:0:0:0:1:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2020-04-09 20:02:08 [main] INFO  c.d.d.c.p.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2020-04-09 20:02:08 [main] INFO  com.datastax.driver.core.Cluster - New Cassandra host localhost/127.0.0.1:9042 added
+2020-04-09 20:02:08 [main] DEBUG o.s.d.cassandra.core.cql.CqlTemplate - Executing CQL Statement [CREATE TABLE IF NOT EXISTS phone_book (address text, first_name text, phone_number varint, phonebook_id int, surname text, PRIMARY KEY (phonebook_id));]
+2020-04-09 20:02:09 [main] INFO  c.e.mypoc.phonebook.ApplicationTests - Started ApplicationTests in 4.751 seconds (JVM running for 6.058)
+2020-04-09 20:27:21 [main] INFO  c.e.mypoc.phonebook.ApplicationTests - Starting ApplicationTests on HYD-LAP-00493 with PID 12996 (started by ntalatam in D:\myworkspace\mypoc.phonebook)
+2020-04-09 20:27:21 [main] DEBUG c.e.mypoc.phonebook.ApplicationTests - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-09 20:27:21 [main] INFO  c.e.mypoc.phonebook.ApplicationTests - The following profiles are active: local
+2020-04-09 20:27:22 [main] INFO  com.datastax.driver.core - DataStax Java driver 3.7.2 for Apache Cassandra
+2020-04-09 20:27:22 [main] INFO  c.d.driver.core.GuavaCompatibility - Detected Guava >= 19 in the classpath, using modern compatibility layer
+2020-04-09 20:27:23 [main] INFO  com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2020-04-09 20:27:23 [main] INFO  c.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+2020-04-09 20:27:23 [main] INFO  com.datastax.driver.core.NettyUtil - Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+2020-04-09 20:27:24 [main] WARN  com.datastax.driver.core.Cluster - You listed localhost/0:0:0:0:0:0:0:1:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2020-04-09 20:27:24 [main] INFO  c.d.d.c.p.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2020-04-09 20:27:24 [main] INFO  com.datastax.driver.core.Cluster - New Cassandra host localhost/127.0.0.1:9042 added
+2020-04-09 20:27:24 [main] DEBUG o.s.d.cassandra.core.cql.CqlTemplate - Executing CQL Statement [CREATE TABLE IF NOT EXISTS phone_book (address text, first_name text, phone_number varint, phonebook_id int, surname text, PRIMARY KEY (phonebook_id));]
+2020-04-09 20:27:25 [main] INFO  c.e.mypoc.phonebook.ApplicationTests - Started ApplicationTests in 4.794 seconds (JVM running for 5.876)
+2020-04-09 20:49:25 [main] INFO  c.e.mypoc.phonebook.ApplicationTests - Starting ApplicationTests on HYD-LAP-00493 with PID 10916 (started by ntalatam in D:\myworkspace\mypoc.phonebook)
+2020-04-09 20:49:25 [main] DEBUG c.e.mypoc.phonebook.ApplicationTests - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-09 20:49:25 [main] INFO  c.e.mypoc.phonebook.ApplicationTests - The following profiles are active: local
+2020-04-09 20:49:26 [main] INFO  com.datastax.driver.core - DataStax Java driver 3.7.2 for Apache Cassandra
+2020-04-09 20:49:26 [main] INFO  c.d.driver.core.GuavaCompatibility - Detected Guava >= 19 in the classpath, using modern compatibility layer
+2020-04-09 20:49:27 [main] INFO  com.datastax.driver.core.Native - Could not load JNR C Library, native system calls through this library will not be available (set this logger level to DEBUG to see the full stack trace).
+2020-04-09 20:49:27 [main] INFO  c.datastax.driver.core.ClockFactory - Using java.lang.System clock to generate timestamps.
+2020-04-09 20:49:27 [main] INFO  com.datastax.driver.core.NettyUtil - Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+2020-04-09 20:49:30 [main] WARN  com.datastax.driver.core.Cluster - You listed localhost/0:0:0:0:0:0:0:1:9042 in your contact points, but it wasn't found in the control host's system.peers at startup
+2020-04-09 20:49:30 [main] INFO  c.d.d.c.p.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2020-04-09 20:49:30 [main] INFO  com.datastax.driver.core.Cluster - New Cassandra host localhost/127.0.0.1:9042 added
+2020-04-09 20:49:30 [main] DEBUG o.s.d.cassandra.core.cql.CqlTemplate - Executing CQL Statement [CREATE TABLE IF NOT EXISTS phone_book (address text, first_name text, phone_number varint, phonebook_id int, surname text, PRIMARY KEY (phonebook_id));]
+2020-04-09 20:49:31 [main] INFO  c.e.mypoc.phonebook.ApplicationTests - Started ApplicationTests in 6.325 seconds (JVM running for 7.613)

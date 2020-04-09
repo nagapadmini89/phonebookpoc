@@ -1,0 +1,35 @@
+---
+
+server:
+  port: 9011
+
+spring:
+  profiles:
+    active: local
+  data:
+    cassandra:
+      keyspace-name: phonebook_poc
+      port: 9042
+      schema-action: CREATE_IF_NOT_EXISTS
+      keyspace-replication-strategy: "{ 'class':'SimpleStrategy', 'replication_factor': '1' }"
+      username:
+      password:
+      connect-timeout: 100000
+
+logging:
+  level:
+    com.datastax.driver.core.QueryLogger.SLOW: DEBUG
+    com.datastax.driver.core.QueryLogger.NORMAL: DEBUG
+    com.datastax.driver.core.QueryLogger.ERROR: DEBUG
+    org.springframework.data.cassandra.core.cql.CqlTemplate: DEBUG
+    org.springframework.data.cassandra.core.cql.ReactiveCqlTemplate: DEBUG
+    org.springframework: ERROR
+    com.example: DEBUG
+  file:
+    name: app.log
+    path: D:\logs\app.log
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+
+bound : 99999999
